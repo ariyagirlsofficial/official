@@ -77,25 +77,8 @@ filterBtns.forEach(btn => {
     });
 });
 
-// Form Handling
-const contactForm = document.getElementById('contactForm');
-const newsletterForm = document.getElementById('newsletterForm');
 
-contactForm.addEventListener('submit', (e) => {
-    e.preventDefault();
-    const formData = new FormData(contactForm);
-    // Here you would typically send the form data to a server
-    alert('Soon');
-    contactForm.reset();
-});
 
-// newsletterForm.addEventListener('submit', (e) => {
-//     e.preventDefault();
-//     const email = newsletterForm.querySelector('input[type="email"]').value;
-    // Here you would typically handle newsletter subscription
-//     alert('Thanks for subscribing! You\'ll receive our updates soon.');
-//     newsletterForm.reset();
-// });
 
 // Menu Toggle Functionality
 const menuToggle = document.querySelector('.menu-toggle');
