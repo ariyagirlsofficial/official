@@ -1477,3 +1477,17 @@ html {
         margin: 1.5rem 0;
     }
 }
+
+.whatsapp-btn {
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .whatsapp-btn:hover {
+    background-color: #128C7E;
+  }
