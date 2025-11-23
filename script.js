@@ -7,19 +7,19 @@ const closeModal = document.querySelector('.close-modal');
 // Member data with actual band information
 const memberData = {
     member1: {
-        name: 'vocalist rapper (정나리)',
-        instrument: 'Vocal',
+        name: 'Nari Jung (정나리)',
+        instrument: 'Rapper vocalist',
         bio: 'Nari Jung (정나리) Born: March 12, 2003 Nationality: Brazilian / South Korean Profile: Nari Jung is the rapper of the group, standing out with her powerful rhymes and striking stage presence. With long blue hair and purple streaks, she combines her bold style with impactful and attitude-filled lyrics. From a young age, Nari always dreamed of being in the spotlight, and her rapping skills reflect her determination and confidence.'
     },
     member2: {
-        name: 'Haeun Lee (이해은)',
-        instrument: 'supporting vocalist',
-        bio: 'Haeun Lee (이해은) Born: April 21, 2006 Nationality: South Korean / Japanese Profile: With her long pink hair, Haeun is the group’s supporting vocalist. Her soft voice perfectly complements the more delicate moments in their songs, and she is known for her ability to harmonize beautifully with the other members. Despite being the youngest in the group, Haeun brings artistic maturity to her performances, charming fans with her sweetness and captivating presence.'
+        name: 'Miyu Takahashi (高橋 美優)',
+        instrument: 'Main vocalist',
+        bio: 'Miyu Takahashi (高橋 美優) Born: November 5, 2004 Nationality: Brazilian / Japanese Profile: Miyu is the group’s main vocalist, known for her versatile and emotional voice. Her vibrant red hair complements her unique presence, and her ability to hit high notes and convey deep emotions makes her one of the most beloved members among fans. In addition to her vocal skills, Miyu is also a talented dancer, contributing choreography that captures the audience’s attention.'
     },
     member3: {
-        name: 'Miyu Takahashi (高橋 美優) ',
-        instrument: 'main vocalist',
-        bio: 'Miyu Takahashi (高橋 美優) Born: November 5, 2004 Nationality: Brazilian / Japanese Profile: Miyu is the group’s main vocalist, known for her versatile and emotional voice. Her vibrant red hair complements her unique presence, and her ability to hit high notes and convey deep emotions makes her one of the most beloved members among fans. In addition to her vocal skills, Miyu is also a talented dancer, contributing choreography that captures the audience’s attention.'
+        name: 'Haeun Lee (이해은)',
+        instrument: 'Supporting vocalist',
+        bio: 'Haeun Lee (이해은) Born: April 21, 2006 Nationality: South Korean / Japanese Profile: With her long pink hair, Haeun is the group’s supporting vocalist. Her soft voice perfectly complements the more delicate moments in their songs, and she is known for her ability to harmonize beautifully with the other members. Despite being the youngest in the group, Haeun brings artistic maturity to her performances, charming fans with her sweetness and captivating presence.'
     },
     // member4: {
     //     name: 'Julia Martins',
@@ -102,4 +102,5 @@ navLinks.forEach(link => {
             navMenu.classList.remove('active');
         }
     });
+
 });
